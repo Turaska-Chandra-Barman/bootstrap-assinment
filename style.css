@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-section {
+  max-width: 1700px;
+}
+.container-Home {
+  max-width: 2000px;
+}
+
+.span-clr {
+  color: #8a47f6;
+}
+
+.span-clr2 {
+  width: 200px;
+  height:20px;
+  background-color: #8a47f6;
+}
+
+.hero-text {
+  font-size: 74px;
+}
+
+
+.btn-color {
+  background-color: #fe8c45;
+}
+
+.about-clr{
+  background-color: #F3EDFE;
+}
+
+.proper{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.image-proper{
+  max-width: 400px;
+
+  background-image: url('./image/Rectangle\ 5.png');
+
+}
+.image-proper1{
+  max-width: 300px;
+  height: 50%;
+  background-image: url('./image/Rectangle\ 6.png');
+
+}
+.image-proper2{
+  max-width: 300px;
+  height: 50%;
+  background-image: url('./image/Rectangle\ 7.png');
+}
+
+
+.bg-clr{
+  background-color: #EDE3F5 ;
+}
+
+
+.icon-size{
+  width: 50px;
+  height: 50px;
+  background-color:#8a47f6 ;
+  
+}
+
+.height-img-protfolio{
+height: 708px;
+}
+.height-img-protfolio2{
+height: 690px;
+}
+
+.width-box{
+  max-width: 593px;
+}
+.height-img{
+  min-height: 500px;
+}
+.height-img2{
+  min-height: 400px;
+}
+.height-img1{
+  min-height:200px;
+}
+
+
+
+@media (max-width: 445px) {
+  .img-oltar {
+    max-width: 100px;
+  }
+  .width-text{
+    max-width: 10px;
+  }
+
+}
+
+@media(max-width:992px){
+  .text-size{
+    font-size: 34px;
+  }
+  .pik-width{
+    width: 800px !important;
+  }
+}
+
+
+@media (max-width:768px){
+  .pik-width{
+    width: 400px !important;
+    padding-right: 10px;
+  }
+  .btn-text{
+    font-size: 14px !important;
+  }
+}
